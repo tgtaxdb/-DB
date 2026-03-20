@@ -1,0 +1,26 @@
+# 기본: 전체 차단 (Google, Bing 등)
+User-agent: *
+Allow: /llms.txt
+Allow: /*.md
+Disallow: /
+
+# AI 봇만 허용
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: claude-web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: PerplexityBot-SearchIndex
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+Sitemap: https://taxdb.netlify.app/sitemap.xml

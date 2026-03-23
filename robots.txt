@@ -1,18 +1,29 @@
-# 1. 기본: 모든 검색엔진 차단
-User-agent: *
+# ===== 검색엔진 차단 (웹 검색 결과 노출 방지) =====
+User-agent: Googlebot
 Disallow: /
 
-# 2. OpenAI (ChatGPT) 허용
+User-agent: Yeti
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+# ===== AI 봇 허용 =====
+
+# OpenAI (ChatGPT)
 User-agent: GPTBot
 Allow: /
 User-agent: ChatGPT-User
 Allow: /
 
-# 3. Google AI (Gemini / Google-Extended) 허용
+# Google AI (Gemini / Google-Extended)
 User-agent: Google-Extended
 Allow: /
 
-# 4. Anthropic (Claude) 허용
+# Anthropic (Claude)
 User-agent: AnthropicAI
 Allow: /
 User-agent: ClaudeBot
@@ -20,11 +31,14 @@ Allow: /
 User-agent: claude-web
 Allow: /
 
-# 5. Perplexity AI 허용
+# Perplexity AI
 User-agent: PerplexityBot
 Allow: /
 User-agent: PerplexityBot-SearchIndex
 Allow: /
+User-agent: Perplexity-User
+Allow: /
 
-# 사이트맵
-Sitemap: https://tgtaxdb.github.io/DB/sitemap.xml
+# ===== 그 외 모든 봇 허용 =====
+User-agent: *
+Allow: /

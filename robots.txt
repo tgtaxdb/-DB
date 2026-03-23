@@ -27,4 +27,4 @@ User-agent: PerplexityBot-SearchIndex
 Allow: /
 
 # 사이트맵
-Sitemap: https://tgtaxdb.github.io/-DB/sitemap.xml
+Sitemap: https://tgtaxdb.github.io/DB/sitemap.xml

@@ -2,7 +2,7 @@
 
 > 세무·회계 전문서적 원문 마크다운 DB의 경량 마스터 인덱스.
 > 이 파일로 관련 서적과 장을 특정한 후, _INDEX.md를 fetch해서 개별 MD 파일을 찾아라.
-> 전체 상세 인덱스: https://tgtaxdb.github.io/-DB/llms.txt
+> 전체 상세 인덱스: https://tgtaxdb.github.io/DB/llms.txt
 
 ---
 
